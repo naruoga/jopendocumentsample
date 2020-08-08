@@ -1,3 +1,5 @@
+// (c) 2020 Naruhiko Ogasawara
+// This code is licensed under MIT license (see LICENSE.txt for details)
 import java.io.{File, FileOutputStream}
 
 import model.{Issue, Project}
