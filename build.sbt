@@ -12,4 +12,4 @@ version := "0.2"
 
 resolvers += "Jitpack" at "https://jitpack.io"
 
-libraryDependencies += "com.github.naruoga" % "jOpenDocument" % "master-a4d450192b-1"
+libraryDependencies += "com.github.naruoga" % "jOpenDocument" % "3.0-e95cf2153c-1"
