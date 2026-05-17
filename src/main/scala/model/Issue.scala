@@ -11,7 +11,7 @@ case class Issue(
                   severity: String
                 ) {
   val detailTemplate = new JavaScriptTemplate(
-    getClass.getResourceAsStream("/issueDetail.odt"))
+    getClass.getResourceAsStream("/IssueDetail.odt"))
 
   def issueDetailPage(num: Int): ODSingleXMLDocument = {
     detailTemplate.setField("fieldNum", num + 1)
